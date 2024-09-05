@@ -1,0 +1,76 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  overflow: hidden;
+  background-color: black;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  padding-left: 1rem;
+}
+.container {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  height: 100vh;
+  ;
+}
+
+.lessons {
+    grid-row: 1;
+    color: white;
+    padding: 0 1rem;
+  }
+
+  .lessons img {
+    width: 5rem;
+    border-radius: 50%;
+    margin: 0;
+  }
+  .lessons p {
+    font-size: 1.7rem;
+    margin: 0;
+  }
+  
+  .messages {
+    grid-row: 2;
+    background-color: white;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+  #button {
+    height: 5rem;
+    width: 15rem;
+    background-color: white;
+    border: 0.3rem solid;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 1);
+  }
+
+.message-box {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.message-box img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+}
+
+.message-box p {
+    font-size: 1.5rem;
+}
