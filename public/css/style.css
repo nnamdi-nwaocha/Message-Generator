@@ -3,6 +3,10 @@ body {
   font-style: normal;
   overflow: hidden;
   background-color: black;
+
+}
+html{
+    font-size: 11px;
 }
 
 h1 {
